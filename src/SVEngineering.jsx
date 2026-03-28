@@ -359,7 +359,7 @@ export default function SVEngineering() {
 
         <div style={{ position: "absolute", bottom: 0, left: 0, right: 0, borderTop: "1px solid #1e2535", background: "rgba(15,18,28,0.92)", backdropFilter: "blur(8px)" }}>
           <div className="stat-row" style={{ maxWidth: 1200, margin: "0 auto", display: "grid", gridTemplateColumns: "repeat(4,1fr)", padding: "0 32px" }}>
-            {[["7,500","Sq. Ft.","Facility"],["15+","Years","Experience"],["20+","Products","In Portfolio"],["ASME","SEC-IX","Certified"]].map(([n,u,l],i) => (
+            {[["27,000+","Sq. Ft.","Facility"],["15+","Years","Experience"],["20+","Products","In Portfolio"],["ASME","SEC-IX","Certified"]].map(([n,u,l],i) => (
               <div key={i} style={{ padding: "18px 24px", borderRight: i<3?"1px solid #1e2535":"none", display: "flex", gap: 14, alignItems: "center" }}>
                 <div>
                   <div style={{ fontFamily: "Trebuchet MS, sans-serif", fontSize: "1.4rem", fontWeight: 700, color: "var(--gold-light)", lineHeight: 1 }}>
@@ -386,7 +386,7 @@ export default function SVEngineering() {
                 M/s S V Engineering is a Pune-based fabrication unit with deep expertise in Stainless Steel & Mild Steel process equipment manufacturing. Founded in 2009, we have grown into a trusted name across global process industries.
               </p>
               <p style={{ color: "#8a94a8", lineHeight: 1.9, marginBottom: 32 }}>
-                Our 7,500 sq. ft. facility at Kuruli, Chakan-Alandi Road houses state-of-the-art CNC machines, welding equipment, and material handling systems — operated by TUV NORD-qualified welders.
+                Our 27,000+ sq. ft. facility at Kuruli, Chakan-Alandi Road houses state-of-the-art CNC machines, welding equipment, and material handling systems — operated by TUV NORD-qualified welders.
               </p>
               <div style={{ display: "flex", gap: 10, flexWrap: "wrap" }}>
                 {["SS304","SS316","Copper","Brass","Mild Steel"].map(m => (
